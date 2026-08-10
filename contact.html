@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0"><title>Contact & Appointment | X Medical</title><link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@600;700&display=swap" rel="stylesheet"><link rel="stylesheet" href="css/styles.css"></head>
+<body>
+<header class="site-header"><a class="brand" href="index.html"><span class="brand-mark">X</span><span>X Medical</span></a><button class="menu-toggle" aria-label="Open menu">☰</button><nav class="main-nav"><a href="index.html">Home</a><a href="about.html">About & Services</a><a href="gallery.html">Clinic</a><a href="reviews.html">Reviews</a><a class="active" href="contact.html">Contact</a></nav></header>
+<main>
+<section class="page-hero"><span class="eyebrow">CONTACT X MEDICAL</span><h1>Let's talk about your skin.</h1><p>Appointments, questions and directions — everything you need in one place.</p></section>
+<section class="section contact-layout">
+<div class="contact-info"><span class="eyebrow">CONTACT DETAILS</span><h2>We'd love to hear from you.</h2>
+<div class="contact-item"><span>☎</span><div><b>Phone</b><a href="tel:+919876543210">+91 98765 43210</a><small>Sample number — replace before launch</small></div></div>
+<div class="contact-item"><span>✉</span><div><b>Email</b><a href="mailto:hello@xmedical.example">hello@xmedical.example</a><small>Sample email — replace before launch</small></div></div>
+<div class="contact-item"><span>⌖</span><div><b>Clinic</b><span>12, Example Medical Plaza, RDC, Raj Nagar, Ghaziabad, Uttar Pradesh 201002</span><small>Sample address — replace with actual clinic address</small></div></div>
+<div class="contact-item"><span>◷</span><div><b>Hours</b><span>Mon–Sat · 10:00 AM–7:00 PM</span><small>Sunday closed</small></div></div>
+</div>
+<div class="map-card"><iframe title="Google Map - sample X Medical location" src="https://www.google.com/maps?q=Raj+Nagar+Ghaziabad+Uttar+Pradesh&output=embed" loading="lazy" allowfullscreen></iframe><a class="map-link" target="_blank" rel="noopener" href="https://www.google.com/maps/search/?api=1&query=Raj+Nagar+Ghaziabad+Uttar+Pradesh">Open in Google Maps ↗</a></div>
+</section>
+<section class="section soft" id="appointment"><div class="section-head"><div><span class="eyebrow">BOOKING</span><h2>Book an appointment</h2><p>Use the Google Form below. The project also includes a PHP email form for hosts that support PHP mail().</p></div></div>
+<div class="form-embed"><div class="embed-placeholder"><b>Google Appointment Form</b><p>Replace the placeholder iframe URL in <code>contact.html</code> with your Google Form “Embed HTML” URL.</p><a href="https://docs.google.com/forms/" target="_blank" rel="noopener" class="btn btn-primary">Create Google Form →</a></div></div>
+<div class="or-divider"><span>OR</span></div>
+<form class="demo-form live-form" action="php/submit-appointment.php" method="post"><div class="form-row"><label>Full name<input name="name" required></label><label>Phone<input name="phone" type="tel" required></label></div><div class="form-row"><label>Email<input name="email" type="email" required></label><label>Preferred date<input name="date" type="date" required></label></div><div class="form-row"><label>Preferred time<select name="time" required><option value="">Select</option><option>10:00 AM</option><option>12:00 PM</option><option>2:00 PM</option><option>4:00 PM</option><option>6:00 PM</option></select></label><label>Concern<input name="concern" placeholder="Acne, hair fall, pigmentation..."></label></div><label>Message<textarea name="message" rows="4"></textarea></label><button class="btn btn-primary" type="submit">Send Appointment Request</button><p class="form-note">Appointment requests are configured to email mishrasuraj98765@gmail.com through the PHP endpoint after hosting/server mail is configured.</p></form>
+</section>
+<section class="section" id="contact-form"><div class="form-wrap"><span class="eyebrow">CONTACT DOCTOR</span><h2>Have a question?</h2><div class="form-embed"><div class="embed-placeholder"><b>Google Contact Form</b><p>Replace the placeholder with your Google Contact Form embed URL.</p><a href="https://docs.google.com/forms/" target="_blank" rel="noopener" class="btn btn-secondary">Create Contact Form →</a></div></div>
+<div class="or-divider"><span>OR</span></div>
+<form class="demo-form" action="php/submit-contact.php" method="post"><div class="form-row"><label>Name<input name="name" required></label><label>Email<input name="email" type="email" required></label></div><label>Message<textarea name="message" rows="5" required></textarea></label><button class="btn btn-primary" type="submit">Send Message</button></form></div></section>
+</main><footer class="footer"><div><b>X Medical</b><span>Dermatology & Skin Care</span></div><div>© 2026 X Medical. Demo website.</div></footer><script src="js/script.js"></script></body></html>

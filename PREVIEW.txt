@@ -1,0 +1,3 @@
+Preview: open index.html in a browser.
+For PHP/email functionality, upload the full folder to a PHP-enabled host and visit the hosted index.html.
+Replace the two Google Form placeholders in contact.html before launch.
